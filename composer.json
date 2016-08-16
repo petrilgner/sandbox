@@ -16,7 +16,7 @@
 	],
 	"require": {
 		"php": ">=5.6.0",
-		"nette/application": "^2.4",
+		"nette/application": "dev-master#7634019dd908ee926e775822fb899917922d7267",
 		"nette/bootstrap": "^2.4.1",
 		"nette/caching": "^2.5",
 		"nette/database": "^2.4",
@@ -29,7 +29,7 @@
 		"nette/safe-stream": "^2.3",
 		"nette/security": "^2.4",
 		"nette/utils": "^2.4",
-		"latte/latte": "^2.4",
+		"latte/latte": "dev-master#359bbca27e86eff3b2af383b257d6c3e40f4058a",
 		"tracy/tracy": "^2.4",
 		"dg/adminer-custom": "^1.6",
 		"ublaboo/datagrid": "^4.4"
