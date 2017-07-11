@@ -54,5 +54,4 @@ class SignInFormFactory
 
 		return $form;
 	}
-
 }

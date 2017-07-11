@@ -264,7 +264,6 @@ $tests[] = array(
 );
 
 
-
 /**
  * Gets the boolean value of a configuration option.
  * @param  string  configuration option name
