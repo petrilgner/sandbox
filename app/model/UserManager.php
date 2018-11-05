@@ -73,6 +73,7 @@ final class UserManager implements Nette\Security\IAuthenticator
 	 */
 	public function add($username, $email, $password)
 	{
+		Nette\Utils\Validators::assert($email, 'email');
 		try {
 			$this->database->table(self::TABLE_NAME)->insert([
 				self::COLUMN_NAME => $username,
